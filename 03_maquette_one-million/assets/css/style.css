@@ -3,7 +3,37 @@
 }
 header > div {
     background-size: cover; 
+    background-position: center;
     background: url(../images/hero-image.jpg) no-repeat center;
-    padding: 55px;
+    padding: 25px;
+
+}
+
+h2 , h3{
+    color: #e74c3c;
+
+}
+span {
+    color: #e74c3c;
+}
+
+footer {
+    background-color: #e74c3c;
+    padding: 85px;
+}
+body section:nth-child(3){
+    background-color:ghostwhite;
+}
+h1{
+    font-size: 60px;
+    padding: 80px;
+    padding-inline: 130px;
+}
+p {
+    padding-inline: 100px;
+}
+hr{
+    color: #e74c3c;
+    width: 20%;
 
 }
