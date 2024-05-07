@@ -1,0 +1,37 @@
+:root{
+    font-size: 62.5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: lightsteelblue;
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+button{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 50px;
+    border: solid 5px;
+    font-size: x-large;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#btn-non{
+    position: relative;
+    background-color: rgb(211, 15, 15);
+    width: 100px;
+    left: 1px;
+    top: 1px;
+    font-weight: bold;
+}
+button:first-child{
+    background-color: rgb(71, 222, 29);
+}
